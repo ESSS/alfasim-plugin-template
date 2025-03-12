@@ -1,0 +1,77 @@
+# OSes
+thumbs.db
+*~
+
+# C/C++/Python
+*.o
+*.obj
+*.pyc
+__pycache__/
+*.so
+
+.cache/
+.pytest_cache/
+tmp/
+
+# IDES
+# Visual Studio
+*.opensdf
+*.user
+*.suo
+*.sdf
+*.vcxproj
+*.vcxproj.filters
+*.sln
+msvc/
+build/
+artifacts-py*
+# Pycharm
+.idea/
+# Eclipse
+.settings
+# Visual Studio Code
+.vscode/**
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage
+.coverage
+
+compile_environment.yml
+*.pyd
+*.pdb
+
+*compile_environment.*yml
+
+/tools/msvc_sln/*.sln
+/tools/msvc_sln/.vs/
+.codegen_cache
+
+.coverage.*
+
+# Files and folders from Plugins
+*.hmplugin
+/**/build/
+/**/artifacts
+/**/package
+/**/src/hook_specs.h
+/hooks
+/**/alfasim-runner/
+
+# CMake
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
