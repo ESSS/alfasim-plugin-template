@@ -1,0 +1,8 @@
+name: alfasim-plugin-template
+dependencies:
+  - cmake>3.5.2
+  - invoke>=1.0.0
+  - pre-commit
+  - pip
+  - pip:
+    - alfasim-sdk
