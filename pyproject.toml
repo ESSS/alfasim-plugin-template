@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# Tasks was exclued from lint to avoid that not used imports are removed.
+exclude = ["tasks.py"]
